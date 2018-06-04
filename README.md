@@ -111,4 +111,6 @@ modify the code:
    
    3.2. if the some column' data is not numerical, you should build the tree and store in the workpalce.
    
-running the code: set the suitable K , then set row heading(attribute names), QIs(quasi-identifier names).
+running the code:
+
+   set the suitable K , then set row heading(attribute names), QIs(quasi-identifier names).
