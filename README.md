@@ -62,7 +62,11 @@ Example:
 
 Process
 ----
-1. Set K of K-anonmity
+1. Enter the attribute names.
+
+2. Enter the quasi-identifier names.
+
+3. Set K of K-anonmity
 
 assume that one entity corresponds to one record.
 
@@ -73,9 +77,9 @@ According the definition of K-anonmity, the K is larger or equal to 2.
 P=r/n, r is the num of repetitions of attributes, n is the num of entities in the table which is owned by atacker(table owned by attacker have 5 entities, 2 records have headache,then p=2/5),l is the max num of repetitions of attributes.
 
 C=sqrt(sum(pow(|QG_𝑗|,2))/N), 1<= j =< N, C is the average size and distribution of QI, |QG_𝑗| is the size of QI, N is the num of QI.
-2. Compute the frequency count (FreqC) of the table w.r.t the attributes in the quasi-identifier(QI) set. 
+4. Compute the frequency count (FreqC) of the table w.r.t the attributes in the quasi-identifier(QI) set. 
 
-3. if K-anonymity is satisfied (all FreqC \>= k), step 4.
+5. if K-anonymity is satisfied (all FreqC \>= k), step 4.
 
 else if table is ready for suppression, suppress tuples with FreqCs \<= suppression thresould, step 4. 
         
@@ -87,7 +91,7 @@ else
      
   c. step 2 
                 
-4. Return anonymized table.
+6. Return anonymized table.
 
 
 DataSet
@@ -99,14 +103,12 @@ Running
 ----
 modify the code: 
    
-   1. store the file in the resource file and fresh project.
-   
-   2. set row heading, QI and file location in the setup().
+   1. store the dataset file in the resource file and fresh project.
    
    3. create new DGH(domain generalization hierarchies) trees according your QIs. 
    
    3.1. the sequency of the trees must be same as that of QIs. 
    
-   3.2. if the some column' data is not numerical, you should build the tree in the txtfile and store in the workpalce.
+   3.2. if the some column' data is not numerical, you should build the tree and store in the workpalce.
    
-running the code: set the suitable K.
+running the code: set the suitable K , then set row heading(attribute names), QIs(quasi-identifier names).
