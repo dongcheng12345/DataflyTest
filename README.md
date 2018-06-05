@@ -64,15 +64,15 @@ Process
 ----
 1. Enter the attribute names.
 
-![image](http://github.com/dongcheng12345/DataflyTest/raw/master/images/enterAttriNames.jpg)
+![image](https://github.com/dongcheng12345/DataflyTest/raw/master/images/enterAttriNames.jpg)
 
 2. Enter the quasi-identifier names.
 
-![image](http://github.com/dongcheng12345/DataflyTest/raw/master/images/enterQINames.jpg)
+![image](https://github.com/dongcheng12345/DataflyTest/raw/master/images/enterQINames.jpg)
 
 3. Set K of K-anonmity
 
-![image](http://github.com/dongcheng12345/DataflyTest/raw/master/images/enterK.jpg)
+![image](https://github.com/dongcheng12345/DataflyTest/raw/master/images/enterK.jpg)
 
 assume that one entity corresponds to one record.
 
