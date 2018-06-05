@@ -68,7 +68,11 @@ Process
 
 2. Enter the quasi-identifier names.
 
+![image](http://github.com/dongcheng12345/DataflyTest/raw/master/images/enterQINames.jpg)
+
 3. Set K of K-anonmity
+
+![image](http://github.com/dongcheng12345/DataflyTest/raw/master/images/enterK.jpg)
 
 assume that one entity corresponds to one record.
 
