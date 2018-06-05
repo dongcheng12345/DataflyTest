@@ -63,6 +63,7 @@ Example:
 Process
 ----
 1. Enter the attribute names.
+![image](http://github.com/dongcheng12345/DataflyTest/raw/master/images/enterAttriNames.jpg)
 
 2. Enter the quasi-identifier names.
 
