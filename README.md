@@ -114,3 +114,10 @@ modify the code:
 running the code:
 
    set the suitable K , then set row heading(attribute names), QIs(quasi-identifier names).
+   
+
+Reference
+----
+1.https://github.com/DunniAdenuga/dataFly
+
+2.https://www.researchgate.net/figure/A-schematic-representation-of-the-Datafly-algorithm_fig8_287537219?_sg=e5WA0uYIoL151kISBj__R6gN8rSWTtifB6JC45Ma6wjybM-zP9Ypy8YjBxP3Rbc_FjblqE-3Ol6t9O2FToAVPA
